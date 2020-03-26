@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+
+h1, h4 {
+    text-align: left;
+    padding: 0;
+    margin: 20px 0 5px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: common-ligatures;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    text-align: left;
+}
+h4 {
+    font-size: .8rem; 
+    margin: 0px;
+}
+
+p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-stretch: ultra-condensed;
+    font-style: normal;
+}
+section {
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------*\
+                Main
+\*------------------------------------*/
+resume {
+    width: 210mm;
+    height: 297mm;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0px;
+    background: rgb(238, 238, 237); 
+    /*background: tomato;*/
+}
+/*Left-side*/
+.left {
+    width: 35%;
+    background: #353C46;
+    color:  #FAFAFA;   
+}
+
+.dp img {
+    width: 100%;
+}
+
+.skillCont {
+    padding: 10px;
+}
+.skill {
+    /*background: skyblue;*/
+}
+.skill h6 {
+    min-width: 25%;
+    text-align: start;
+    font-size: .8rem;
+}
+.skillBar {
+    width: 100%;
+    background: rgb(68, 76, 87);
+    height: .8rem;
+
+}
+.skillPercentage {
+   background: rgb(37, 41, 46);
+height: 100%;
+
+}
+.skill .skillPer {
+   font-size: .8rem;
+margin-left: 5px;
+   text-align: end;
+}
+
+
+/*Right-side*/
+.right {
+    width: 65%;
+    background: #FAFAFA;
+    /*background: green;*/
+    color: #353C46;
+    margin: 10px;
+    padding: 15px;
+}
+.right .name h1 {
+    font-size: 1.5rem;
+    margin: 0;
+ 
+}
+.right .workType h4 {
+    padding: 0 0 0 0px;
+    
+}
+
+.simpleInfo {
+    /*background: green;*/
+}
+.right .simpleInfo {
+    
+    justify-content: flex-start;
+    margin: 15px 0 0 0; 
+}
+.simpleInfo .column {
+    margin-right: 25px;
+}
+.right .simpleInfo .column .iconCont {
+    justify-content: flex-start;
+    padding-bottom: 5px;
+    
+    
+}
+.right .simpleInfo .column .iconCont .icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.right .simpleInfo .column .iconCont .icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.education h1 {
+    font-style: bold;
+
+}
+.myEducation {
+    /*background: coral;*/
+
+}
+.myEducation .column {
+    margin: 0 10px;
+}
+.myEducation .column:nth-child(1) {
+    margin: 0;
+}
+
+.pInfoCont .column {
+    margin: 0 35px 0 0; 
+}
+
+.pInfoCont .col2 h4::before {
+    content: ":";
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.mySig  {
+    width: 175px;
+    height: 25px;
+    /*border: 1px solid gray;*/
+    background: white;
+    color: rgb(184, 179, 179, 0.5);
+    margin-top: 10px;
+    font-family: 'Allura', cursive;
+}
+
+.mySig img {
+    width:100%;
+}
