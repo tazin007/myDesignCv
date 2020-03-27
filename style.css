@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
-
+body {
+    background: tomato;
+}
 h1, h4 {
     text-align: left;
     padding: 0;
@@ -42,7 +44,7 @@ resume {
     height: 297mm;
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px;
     background: rgb(238, 238, 237); 
     /*background: tomato;*/
